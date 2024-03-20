@@ -179,3 +179,69 @@ body {
     padding: 20px;
 
 }
+
+.piuDi {
+    padding: 20px;
+}
+
+.piuDi h1 {
+    text-emphasis: bold;
+    font-size: 20px;
+}
+
+.partner-logos {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.block-left,
+.block-middle,
+.block-right {
+    display: grid;
+    width: calc(33.333% - 12px);
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 6px;
+    background-color: #f2f2f2;
+}
+
+.block-middle {
+    height: 100%;
+}
+
+.partner-logos img {
+    width: 80%;
+    height: auto;
+    margin: 20px;
+}
+
+.imgBlock {
+    background-color: #ff0000;
+    width: 300px;
+    height: 300px;
+    padding: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    padding: 20px;
+}
