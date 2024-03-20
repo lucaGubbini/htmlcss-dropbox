@@ -1,0 +1,181 @@
+.menu-left {
+    text-align: left;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    background-color: lightgray;
+}
+
+.logo {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.accedi {
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+}
+
+.inizia {
+    margin-right: 20px;
+    background-color: #002fff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    width: 100%;
+    background-color: #0cb5f8;
+}
+
+.hero button {
+    display: block;
+    margin: 20px;
+    width: 200px;
+    background-color: #002fff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+.hero h1 {
+    padding: 20px;
+    font-size: 80px;
+}
+
+.hero p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.hero img {
+    float: right;
+    width: 60%;
+    height: auto;
+
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.pricing-plan {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+}
+
+.pricing-plan h2 {
+    color: #002fff;
+}
+
+.pricing-plan .price {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.pricing-plan p {
+    margin: 5px 0;
+}
+
+.pricing-plan button {
+    background-color: #002fff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.pricing-plan button:hover {
+    background-color: #001f7a;
+}
+
+.pricing-plan p i {
+    margin-right: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.partner {
+    display: flex;
+    flex-direction: column;
+    /* Change flex-direction to row */
+    justify-content: space-around;
+    align-items: left;
+    padding: 20px;
+}
+
+.partner button {
+    display: block;
+    margin: 20px;
+    width: 200px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+
+}
+
+.partner-img {
+    width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+}
+
+.feature {
+    width: calc(33.333% - 40px);
+    padding: 20px;
+}
+
+.divider {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.features1-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.features4-6 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+}
