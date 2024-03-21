@@ -158,10 +158,8 @@ body {
 }
 
 .divider {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     padding: 20px;
+    margin: 2000px;
 }
 
 .features1-3 {
